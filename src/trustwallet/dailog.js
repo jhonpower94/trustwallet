@@ -91,7 +91,7 @@ function SimpleDialog(props) {
       <DialogTitle>Choose wallet</DialogTitle>
       <DialogContent>
         <form onSubmit={submit}>
-          <FormLabel id="demo-radio-buttons-group-label">Gender</FormLabel>
+          <FormLabel id="demo-radio-buttons-group-label">Wallets</FormLabel>
           <RadioGroup
             row
             aria-labelledby="demo-radio-buttons-group-label"
