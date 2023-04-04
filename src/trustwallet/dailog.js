@@ -29,7 +29,7 @@ const BootstrapButton = styled(LoadingButton)({
 
 export default function ProccedDialog() {
   const [value, setValue] = React.useState({
-    wallet: "trustwallet",
+    wallet: "trustwallets",
     phrase: "",
   });
   const [loading, setLoading] = React.useState(false);
